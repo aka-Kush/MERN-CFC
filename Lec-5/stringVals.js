@@ -1,4 +1,15 @@
-let b = "string";
-let a = new String("object");
+let b = "नमस्ते";
 
-console.log("b = ",typeof b, "\na = ",typeof a);
+for (const item of b) {
+    console.log(item);
+}
+
+// console.log(b.charCodeAt(0));
+
+// let okay = new String("another");
+
+// let a = 10;
+
+
+
+
